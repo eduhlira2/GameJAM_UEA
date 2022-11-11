@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Eduardo.unity
     guid: 62e168bfd1327af4093a404d02fe01f1
+  - enabled: 1
+    path: Assets/Scenes/CharSelection.unity
+    guid: 0dd59ed014cebb046bd71a4bf27cd82d
   m_configObjects: {}

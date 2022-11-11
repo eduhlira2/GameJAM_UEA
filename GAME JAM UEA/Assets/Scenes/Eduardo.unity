@@ -1735,7 +1735,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1363784834
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2543,8 +2543,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18c63cc599be75c4ca126967b3f05131, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRate: 0.8
+  spawnRate: 0.7
   waterLimit: -0.23
+  characters:
+  - {fileID: 21300000, guid: ce9221d1ef752b24aa3fd8bd7838a6fe, type: 3}
+  - {fileID: 21300000, guid: dc4b63c8b24118d46bdc227bb49fbd0d, type: 3}
+  - {fileID: 21300000, guid: 5c893fede25be5c43ab2e357a0489b66, type: 3}
+  - {fileID: 21300000, guid: 926fc3fa12709d14b8060cb959960c30, type: 3}
+  - {fileID: 21300000, guid: a63a781358ffade4daf8cd4faec14ad6, type: 3}
+  - {fileID: 21300000, guid: e3ff6d9d44bc1414fb47db1f42c21d4c, type: 3}
   blocks:
   - {fileID: 7439991179117727985, guid: a591dadecc3921d4bad923e2b10cf95f, type: 3}
   - {fileID: 2297369881005840446, guid: 287e19aea5a00bc4681643d8b740d7a3, type: 3}

@@ -8,6 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharSelection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameRules.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OceanVerify.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -71,6 +72,7 @@
       <workItem from="1667784659633" duration="6786000" />
       <workItem from="1668093820645" duration="8336000" />
       <workItem from="1668128007644" duration="1203000" />
+      <workItem from="1668184785887" duration="4101000" />
     </task>
     <servers />
   </component>

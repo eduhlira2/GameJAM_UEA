@@ -11,7 +11,11 @@ public class GameRules : MonoBehaviour
     private float startingTime = 10f;
     public float waterLimit;
     private bool fallChar = true;
+    private SpriteRenderer playerCloudSprite;
+    private SpriteRenderer  playerFallSprite;
     
+    
+    public Sprite[] characters;
     public GameObject[] blocks;
     public GameObject ocean;
     public GameObject winPanel;
@@ -31,6 +35,12 @@ public class GameRules : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log(PlayerPrefs.GetInt("stars"));
+        playerCloudSprite = playerCloud.GetComponent<SpriteRenderer>();
+        playerFallSprite = playerToFall.GetComponent<SpriteRenderer>();
+        
+        SetCharacter();
+        
         waterLimit = Random.Range(-0.57f, 0.49f);
         waterVerify = false;
         m_NewForce = new Vector2(0, 4f);
@@ -49,6 +59,7 @@ public class GameRules : MonoBehaviour
         
         if (ocean.transform.position.y >= waterLimit)  //Faz a verificação se venceu ou não
         {
+            
             if (winCondition == -1)
             {
                 winPanel.SetActive(false);
@@ -119,6 +130,38 @@ public class GameRules : MonoBehaviour
 
     public void GoToScene (string scene) //função que reinicia a cena.
     {
+
+        if (winCondition == 0)
+        {
+            PlayerPrefs.SetInt("stars", PlayerPrefs.GetInt("stars") +1);
+            Debug.Log("aumentou estrelas");
+        }
+
+        if (winCondition == -1)
+        {
+            PlayerPrefs.SetInt("stars", 0 );
+        }
         SceneManager.LoadScene(scene);
+    }
+
+    void SetCharacter()
+    {
+        int charToSpawn = PlayerPrefs.GetInt("charToPlay");
+
+        if (charToSpawn == 1)
+        {
+            playerCloudSprite.sprite = characters[0];
+            playerFallSprite.sprite = characters[1];
+        }
+        if (charToSpawn == 2)
+        {
+            playerCloudSprite.sprite = characters[2];
+            playerFallSprite.sprite = characters[3];
+        }
+        if (charToSpawn == 3)
+        {
+            playerCloudSprite.sprite = characters[4];
+            playerFallSprite.sprite = characters[5];
+        }
     }
 }
