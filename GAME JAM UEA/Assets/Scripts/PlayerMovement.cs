@@ -46,4 +46,14 @@ public class PlayerMovement : MonoBehaviour
         canMove = true;
         GameRules.canFallBlocks = true;
     }
+    
+    public void GotoLeft()
+    {
+        movementOrientation = -1;
+    }
+    
+    public void GotoRight()
+    {
+        movementOrientation = 1;
+    }
 }
