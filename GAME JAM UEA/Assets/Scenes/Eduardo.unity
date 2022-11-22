@@ -2546,12 +2546,12 @@ MonoBehaviour:
   spawnRate: 0.7
   waterLimit: -0.23
   characters:
-  - {fileID: 21300000, guid: ce9221d1ef752b24aa3fd8bd7838a6fe, type: 3}
-  - {fileID: 21300000, guid: dc4b63c8b24118d46bdc227bb49fbd0d, type: 3}
-  - {fileID: 21300000, guid: 5c893fede25be5c43ab2e357a0489b66, type: 3}
-  - {fileID: 21300000, guid: 926fc3fa12709d14b8060cb959960c30, type: 3}
-  - {fileID: 21300000, guid: a63a781358ffade4daf8cd4faec14ad6, type: 3}
-  - {fileID: 21300000, guid: e3ff6d9d44bc1414fb47db1f42c21d4c, type: 3}
+  - {fileID: 21300000, guid: 69549f9c5219de34ca228c193078251d, type: 3}
+  - {fileID: 21300000, guid: 7ce4c4a4b301f4b4394482b131d9561a, type: 3}
+  - {fileID: 21300000, guid: cae3d1a23d71c6c4a8512c6a04bd27c3, type: 3}
+  - {fileID: 21300000, guid: 494819daae7e76f4d841ab159b07163a, type: 3}
+  - {fileID: 21300000, guid: 1d1160db08821d84b940a4fe8c478ac5, type: 3}
+  - {fileID: 21300000, guid: cdc64647e841c5c4e8a0ac3d371b5869, type: 3}
   blocks:
   - {fileID: 7439991179117727985, guid: a591dadecc3921d4bad923e2b10cf95f, type: 3}
   - {fileID: 2297369881005840446, guid: 287e19aea5a00bc4681643d8b740d7a3, type: 3}
