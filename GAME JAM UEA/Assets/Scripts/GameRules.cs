@@ -41,7 +41,7 @@ public class GameRules : MonoBehaviour
         
         SetCharacter();
         
-        waterLimit = Random.Range(-0.57f, 0.49f);
+        //waterLimit = Random.Range(-0.57f, 0.49f);
         waterVerify = false;
         m_NewForce = new Vector2(0, 4f);
         currentTime = startingTime;
