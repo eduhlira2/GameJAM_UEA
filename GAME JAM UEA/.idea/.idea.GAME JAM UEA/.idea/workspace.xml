@@ -12,7 +12,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharSelection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameRules.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OceanVerify.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RulesGameController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -83,6 +82,8 @@
       <workItem from="1668184785887" duration="4101000" />
       <workItem from="1668813791212" duration="710000" />
       <workItem from="1669334426042" duration="2064000" />
+      <workItem from="1669389393544" duration="1526000" />
+      <workItem from="1669404753179" duration="1220000" />
     </task>
     <servers />
   </component>

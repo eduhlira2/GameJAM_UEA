@@ -14,6 +14,7 @@ public class RulesGameController : MonoBehaviour
     private SpriteRenderer playerCloudSprite;
     private SpriteRenderer  playerFallSprite;
     
+    private bool canWin;
     
     public Sprite[] characters;
     public GameObject[] blocks;
@@ -35,6 +36,7 @@ public class RulesGameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        canWin = false;
         Debug.Log(PlayerPrefs.GetInt("stars"));
         playerCloudSprite = playerCloud.GetComponent<SpriteRenderer>();
         playerFallSprite = playerToFall.GetComponent<SpriteRenderer>();
@@ -59,14 +61,13 @@ public class RulesGameController : MonoBehaviour
         
         if (ocean.transform.position.y >= waterLimit)  //Faz a verificação se venceu ou não
         {
-            
             if (winCondition == -1)
             {
                 winPanel.SetActive(false);
                 lostPanel.SetActive(true);
                 Time.timeScale = 0;
             }
-            if (winCondition == 0)
+            if (winCondition == 0  && canWin)
             {
                 lostPanel.SetActive(false);
                 winPanel.SetActive(true);
@@ -124,8 +125,16 @@ public class RulesGameController : MonoBehaviour
             {
                 //Debug.Log("Parou de subir");
                 waterVerify = false;
+                StartCoroutine(TimerToVerify());
+
             }
         }
+    }
+
+    IEnumerator TimerToVerify()
+    {
+        yield return new WaitForSeconds(2);
+        canWin = true;
     }
 
     public void GoToScene (string scene) //função que reinicia a cena.

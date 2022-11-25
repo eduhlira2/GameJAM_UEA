@@ -378,6 +378,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CharSelection.cs"
 "Assets/Scripts/FadeCall.cs"
+"Assets/Scripts/Menu.cs"
 "Assets/Scripts/OceanVerify.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/RulesGameController.cs"
