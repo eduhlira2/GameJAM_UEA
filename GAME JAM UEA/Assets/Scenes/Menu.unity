@@ -1194,6 +1194,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1721915352}
     m_Modifications:
+    - target: {fileID: 4315754547335496457, guid: 3a42f917e0461544eb7cc06257c649ab, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1872007660, guid: 9abc48613d373db4997c97782527cc32, type: 3}
     - target: {fileID: 4315754547335496468, guid: 3a42f917e0461544eb7cc06257c649ab, type: 3}
       propertyPath: m_Name
       value: Credits_btn
@@ -1202,6 +1206,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1295860083}
+    - target: {fileID: 4315754547335496470, guid: 3a42f917e0461544eb7cc06257c649ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Creditos
+      objectReference: {fileID: 0}
     - target: {fileID: 4315754547335496471, guid: 3a42f917e0461544eb7cc06257c649ab, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
