@@ -20,7 +20,7 @@ public class OceanVerify : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            GameRules.winCondition = -1;
+            RulesGameController.winCondition = -1;
             Debug.Log("Se afogou no Oceano!");
         }
     }

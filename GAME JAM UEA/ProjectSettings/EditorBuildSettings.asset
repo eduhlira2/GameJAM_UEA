@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CharSelection.unity
     guid: 0dd59ed014cebb046bd71a4bf27cd82d
+  - enabled: 1
+    path: Assets/Scenes/WaterHigh.unity
+    guid: 64f3e811220c37445900ee9164590667
+  - enabled: 1
+    path: Assets/Scenes/WaterLow.unity
+    guid: 2aba06eca17800741950d8080c5e4ffe
   m_configObjects: {}

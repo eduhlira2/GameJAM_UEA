@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class GameRulesLowWater : MonoBehaviour
+public class RulesGameController : MonoBehaviour
 {
     public float spawnRate = 0.5f;
     private float currentTime = 0f;
@@ -35,14 +35,13 @@ public class GameRulesLowWater : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        lineLimit.transform.position = new Vector3(0, waterLimit, 0);
         Debug.Log(PlayerPrefs.GetInt("stars"));
         playerCloudSprite = playerCloud.GetComponent<SpriteRenderer>();
         playerFallSprite = playerToFall.GetComponent<SpriteRenderer>();
         
         SetCharacter();
         
-       // waterLimit = Random.Range(-0.57f, 0.49f);
+        //waterLimit = Random.Range(-0.57f, 0.49f);
         waterVerify = false;
         m_NewForce = new Vector2(0, 4f);
         currentTime = startingTime;
@@ -54,7 +53,7 @@ public class GameRulesLowWater : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        lineLimit.transform.position = new Vector3(0, waterLimit, 0);
         currentTime -= 1 * Time.deltaTime;
         countdownText.text = currentTime.ToString("0");
         
@@ -119,7 +118,7 @@ public class GameRulesLowWater : MonoBehaviour
             if (ocean.transform.position.y <= waterLimit)
             {
                 //Debug.Log("Ta subindo");
-                ocean.transform.position += new Vector3(0,1 ,0) * Time.deltaTime * 2f;
+                ocean.transform.position += new Vector3(0,1,0) * Time.deltaTime * 2f;
             }
             else
             {
@@ -166,3 +165,4 @@ public class GameRulesLowWater : MonoBehaviour
         }
     }
 }
+

@@ -201,7 +201,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0052824207, y: 0.03416747}
+  m_Offset: {x: -0.0013965955, y: -0.022824625}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -212,7 +212,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.052326582, y: 0.01943183}
+  m_Size: {x: 0.023830531, y: 0.014250737}
   m_EdgeRadius: 0
 --- !u!1 &263131572
 GameObject:
@@ -297,8 +297,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2052498537}
-        m_TargetAssemblyTypeName: GameRules, Assembly-CSharp
+      - m_Target: {fileID: 2052498539}
+        m_TargetAssemblyTypeName: RulesGameController, Assembly-CSharp
         m_MethodName: GoToScene
         m_Mode: 5
         m_Arguments:
@@ -306,7 +306,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Eduardo
+          m_StringArgument: WaterLow
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &263131575
@@ -1114,7 +1114,7 @@ Transform:
   m_GameObject: {fileID: 1001969798}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.05, y: -0.06, z: -0.4}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalScale: {x: 4.9844866, y: 4.9844866, z: 4.9844866}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 202325448}
@@ -1162,7 +1162,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: dc4b63c8b24118d46bdc227bb49fbd0d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7ce4c4a4b301f4b4394482b131d9561a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1207,7 +1207,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0052916966, y: -0.028726399}
+  m_Offset: {x: -0.0014058761, y: -0.045564972}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1218,7 +1218,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.10984371, y: 0.2232374}
+  m_Size: {x: 0.10207207, y: 0.1532926}
   m_EdgeRadius: 0
 --- !u!1 &1028177463
 GameObject:
@@ -1937,8 +1937,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2052498537}
-        m_TargetAssemblyTypeName: GameRules, Assembly-CSharp
+      - m_Target: {fileID: 2052498539}
+        m_TargetAssemblyTypeName: RulesGameController, Assembly-CSharp
         m_MethodName: GoToScene
         m_Mode: 5
         m_Arguments:
@@ -1946,7 +1946,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Eduardo
+          m_StringArgument: WaterLow
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1394313349
@@ -2334,7 +2334,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ce9221d1ef752b24aa3fd8bd7838a6fe, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 69549f9c5219de34ca228c193078251d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2354,7 +2354,7 @@ Transform:
   m_GameObject: {fileID: 1869554513}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.05, y: -0.09, z: 0.1}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalScale: {x: 5.0163207, y: 5.0163207, z: 5.0163207}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 849455495}
@@ -2523,7 +2523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2052498538}
-  - component: {fileID: 2052498537}
+  - component: {fileID: 2052498539}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -2531,41 +2531,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2052498537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2052498536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18c63cc599be75c4ca126967b3f05131, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnRate: 0.7
-  waterLimit: -1.44
-  characters:
-  - {fileID: 21300000, guid: 69549f9c5219de34ca228c193078251d, type: 3}
-  - {fileID: 21300000, guid: 7ce4c4a4b301f4b4394482b131d9561a, type: 3}
-  - {fileID: 21300000, guid: cae3d1a23d71c6c4a8512c6a04bd27c3, type: 3}
-  - {fileID: 21300000, guid: 494819daae7e76f4d841ab159b07163a, type: 3}
-  - {fileID: 21300000, guid: 1d1160db08821d84b940a4fe8c478ac5, type: 3}
-  - {fileID: 21300000, guid: cdc64647e841c5c4e8a0ac3d371b5869, type: 3}
-  blocks:
-  - {fileID: 7439991179117727985, guid: a591dadecc3921d4bad923e2b10cf95f, type: 3}
-  - {fileID: 2297369881005840446, guid: 287e19aea5a00bc4681643d8b740d7a3, type: 3}
-  - {fileID: 8253239673394516944, guid: 946d6ddb5e6fd7d42a7481df9298b356, type: 3}
-  - {fileID: 7771829204749395357, guid: 32756d9b1d8004645af1bdcc2a8ad9d9, type: 3}
-  - {fileID: 3685828518869678707, guid: ce1eb81abf721e843beb67a01727fcd5, type: 3}
-  ocean: {fileID: 1315823566}
-  winPanel: {fileID: 950182821}
-  lostPanel: {fileID: 1902774856}
-  lineLimit: {fileID: 573531838}
-  playerCloud: {fileID: 1869554513}
-  playerToFall: {fileID: 1001969798}
-  rbPlayer: {fileID: 1001969801}
-  countdownText: {fileID: 570701230}
 --- !u!4 &2052498538
 Transform:
   m_ObjectHideFlags: 0
@@ -2581,6 +2546,43 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2052498539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052498536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69af1352c744a3347aa02a718ef71460, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnRate: 0.9
+  waterLimit: -1.44
+  characters:
+  - {fileID: 21300000, guid: 69549f9c5219de34ca228c193078251d, type: 3}
+  - {fileID: 21300000, guid: 7ce4c4a4b301f4b4394482b131d9561a, type: 3}
+  - {fileID: 21300000, guid: cae3d1a23d71c6c4a8512c6a04bd27c3, type: 3}
+  - {fileID: 21300000, guid: 494819daae7e76f4d841ab159b07163a, type: 3}
+  - {fileID: 21300000, guid: 1d1160db08821d84b940a4fe8c478ac5, type: 3}
+  - {fileID: 21300000, guid: cdc64647e841c5c4e8a0ac3d371b5869, type: 3}
+  blocks:
+  - {fileID: 7439991179117727985, guid: a591dadecc3921d4bad923e2b10cf95f, type: 3}
+  - {fileID: 2297369881005840446, guid: 287e19aea5a00bc4681643d8b740d7a3, type: 3}
+  - {fileID: 8253239673394516944, guid: 946d6ddb5e6fd7d42a7481df9298b356, type: 3}
+  - {fileID: 7771829204749395357, guid: 32756d9b1d8004645af1bdcc2a8ad9d9, type: 3}
+  - {fileID: 3685828518869678707, guid: ce1eb81abf721e843beb67a01727fcd5, type: 3}
+  - {fileID: 2692164690971638958, guid: c745f397b1c52d34588c52ecd2f2029a, type: 3}
+  - {fileID: 9024660543422022629, guid: df236499705f2584298cced8182d1217, type: 3}
+  ocean: {fileID: 1315823566}
+  winPanel: {fileID: 950182821}
+  lostPanel: {fileID: 1902774856}
+  lineLimit: {fileID: 573531838}
+  playerCloud: {fileID: 1869554513}
+  playerToFall: {fileID: 1001969798}
+  rbPlayer: {fileID: 1001969801}
+  countdownText: {fileID: 570701230}
 --- !u!1 &2115157677
 GameObject:
   m_ObjectHideFlags: 0
@@ -2732,7 +2734,7 @@ RectTransform:
   m_GameObject: {fileID: 2129922162}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8.9903, y: 8.9903, z: 8.9903}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1028177464}
@@ -2741,7 +2743,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -192, y: 343}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 32, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2129922164
 MonoBehaviour:
@@ -2763,7 +2765,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 1d1160db08821d84b940a4fe8c478ac5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

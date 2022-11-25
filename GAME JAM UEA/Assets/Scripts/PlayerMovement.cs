@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
         Time.timeScale = 1;
         panelStart.SetActive(false);
         canMove = true;
-        GameRules.canFallBlocks = true;
+        RulesGameController.canFallBlocks = true;
     }
     
     public void GotoLeft()
