@@ -759,7 +759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7135941102783865808, guid: 5be75a2696a49b14eae31efb00f86240, type: 3}
       propertyPath: m_Text
-      value: stage 3
+      value: Fase 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5be75a2696a49b14eae31efb00f86240, type: 3}
