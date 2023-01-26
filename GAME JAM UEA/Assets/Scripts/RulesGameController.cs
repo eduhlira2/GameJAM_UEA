@@ -41,7 +41,7 @@ public class RulesGameController : MonoBehaviour
         playerCloudSprite = playerCloud.GetComponent<SpriteRenderer>();
         playerFallSprite = playerToFall.GetComponent<SpriteRenderer>();
         
-        SetCharacter();
+        //SetCharacter();
         
         //waterLimit = Random.Range(-0.57f, 0.49f);
         waterVerify = false;
@@ -153,7 +153,7 @@ public class RulesGameController : MonoBehaviour
         SceneManager.LoadScene(scene);
     }
 
-    void SetCharacter()
+    /*void SetCharacter()
     {
         int charToSpawn = PlayerPrefs.GetInt("charToPlay");
 
@@ -172,6 +172,6 @@ public class RulesGameController : MonoBehaviour
             playerCloudSprite.sprite = characters[4];
             playerFallSprite.sprite = characters[5];
         }
-    }
+    }*/
 }
 
