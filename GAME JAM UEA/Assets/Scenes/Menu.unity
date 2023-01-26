@@ -282,7 +282,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1295860083}
+      - m_Target: {fileID: 1860437199}
         m_TargetAssemblyTypeName: FadeCall, Assembly-CSharp
         m_MethodName: Fade
         m_Mode: 5
@@ -291,7 +291,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: CharSelection
+          m_StringArgument: Stage 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &641072981
@@ -467,17 +467,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2996987463628036004, guid: 9a70127a3534534468ce5527322c2479, type: 3}
   m_PrefabInstance: {fileID: 1860437197}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1295860083 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7275579687435185161, guid: 9a70127a3534534468ce5527322c2479, type: 3}
-  m_PrefabInstance: {fileID: 1860437197}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c32c9ff3f2a7b46488088e3c2c201b23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1354375674
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,6 +1119,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a70127a3534534468ce5527322c2479, type: 3}
+--- !u!114 &1860437199 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 961824203, guid: 9a70127a3534534468ce5527322c2479, type: 3}
+  m_PrefabInstance: {fileID: 1860437197}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c32c9ff3f2a7b46488088e3c2c201b23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2088531672
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1205,7 +1205,11 @@ PrefabInstance:
     - target: {fileID: 4315754547335496470, guid: 3a42f917e0461544eb7cc06257c649ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1295860083}
+      objectReference: {fileID: 1860437199}
+    - target: {fileID: 4315754547335496470, guid: 3a42f917e0461544eb7cc06257c649ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Fade
+      objectReference: {fileID: 0}
     - target: {fileID: 4315754547335496470, guid: 3a42f917e0461544eb7cc06257c649ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Creditos

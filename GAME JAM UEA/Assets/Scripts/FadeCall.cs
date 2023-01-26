@@ -9,7 +9,7 @@ public class FadeCall : MonoBehaviour
    public Image blackfade;
    public Animator animFade;
    private string lvlName;
-   
+
    public void Fade(string scene)
    {
       lvlName = scene;
@@ -21,6 +21,11 @@ public class FadeCall : MonoBehaviour
       animFade.SetBool("fade", true);
       yield return new WaitUntil(() => blackfade.color.a == 1);
       SceneManager.LoadScene(lvlName);
+   }
+
+   void fadeCaller()
+   {
+      StartCoroutine(GoToNextLevel());
    }
     
     
