@@ -135,5 +135,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6216604997644608665, guid: 8fc20c083937835409b71bc546f27784, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 598.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216604997644608665, guid: 8fc20c083937835409b71bc546f27784, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216604997644608670, guid: 8fc20c083937835409b71bc546f27784, type: 3}
+      propertyPath: m_Text
+      value: A cidade foi alagada! Tente de novo!
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fc20c083937835409b71bc546f27784, type: 3}
