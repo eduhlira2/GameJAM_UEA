@@ -2807,8 +2807,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1047926147}
     - target: {fileID: 7300733472598673919, guid: b8e31a9fc1dd1664aabd57b8b254dd6c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2052498539}
+    - target: {fileID: 7300733472598673919, guid: b8e31a9fc1dd1664aabd57b8b254dd6c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Fade
+      objectReference: {fileID: 0}
+    - target: {fileID: 7300733472598673919, guid: b8e31a9fc1dd1664aabd57b8b254dd6c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: StagesToUnlocked
       objectReference: {fileID: 0}
     - target: {fileID: 7300733472598673919, guid: b8e31a9fc1dd1664aabd57b8b254dd6c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -3250,15 +3258,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69af1352c744a3347aa02a718ef71460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  actualLevel: 0
+  keyObj: {fileID: 0}
   spawnRate: 0.5
   waterLimit: 1
-  characters:
-  - {fileID: 21300000, guid: 69549f9c5219de34ca228c193078251d, type: 3}
-  - {fileID: 21300000, guid: 7ce4c4a4b301f4b4394482b131d9561a, type: 3}
-  - {fileID: 21300000, guid: cae3d1a23d71c6c4a8512c6a04bd27c3, type: 3}
-  - {fileID: 21300000, guid: 494819daae7e76f4d841ab159b07163a, type: 3}
-  - {fileID: 21300000, guid: 1d1160db08821d84b940a4fe8c478ac5, type: 3}
-  - {fileID: 21300000, guid: cdc64647e841c5c4e8a0ac3d371b5869, type: 3}
   blocks:
   - {fileID: 7439991179117727985, guid: a591dadecc3921d4bad923e2b10cf95f, type: 3}
   - {fileID: 2297369881005840446, guid: 287e19aea5a00bc4681643d8b740d7a3, type: 3}

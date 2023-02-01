@@ -20,20 +20,44 @@ PrefabInstance:
       value: FadeCall, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6216604996545906447, guid: 8fc20c083937835409b71bc546f27784, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216604996545906447, guid: 8fc20c083937835409b71bc546f27784, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216604996545906447, guid: 8fc20c083937835409b71bc546f27784, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216604996545906447, guid: 8fc20c083937835409b71bc546f27784, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6216604996545906447, guid: 8fc20c083937835409b71bc546f27784, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Fade
       objectReference: {fileID: 0}
     - target: {fileID: 6216604996545906447, guid: 8fc20c083937835409b71bc546f27784, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: StagesToUnlocked
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216604996545906447, guid: 8fc20c083937835409b71bc546f27784, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: FadeCall, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6216604996545906447, guid: 8fc20c083937835409b71bc546f27784, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: RulesGameController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216604996545906447, guid: 8fc20c083937835409b71bc546f27784, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Stage 6
+      value: Stage 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216604996545906447, guid: 8fc20c083937835409b71bc546f27784, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6216604996953103344, guid: 8fc20c083937835409b71bc546f27784, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -41,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6216604997155018452, guid: 8fc20c083937835409b71bc546f27784, type: 3}
       propertyPath: m_Name
-      value: PanelPopUpVictory Variant
+      value: PanelPopUpVictory
       objectReference: {fileID: 0}
     - target: {fileID: 6216604997155018452, guid: 8fc20c083937835409b71bc546f27784, type: 3}
       propertyPath: m_IsActive

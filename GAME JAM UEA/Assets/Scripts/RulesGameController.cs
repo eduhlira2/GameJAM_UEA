@@ -8,7 +8,8 @@ using UnityEngine.SceneManagement;
 public class RulesGameController : MonoBehaviour
 {
     public GameObject character;
-
+    public static int StagesUnlocked;
+    
     public int actualLevel;
     private bool needKey;
     public static bool key;
@@ -43,6 +44,7 @@ public class RulesGameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("Atualmente temos este numero de Fases desbloqueadas: "+PlayerPrefs.GetInt("stagesUnlocked"));
         key = false;
         canWin = false;
         Debug.Log(PlayerPrefs.GetInt("stars"));
@@ -182,6 +184,17 @@ public class RulesGameController : MonoBehaviour
         }
         SceneManager.LoadScene(scene);
     }
+
+    public void StagesToUnlocked()
+    {
+        if (PlayerPrefs.GetInt("stagesUnlocked") <= 5)
+        {
+            int stages;
+            stages = PlayerPrefs.GetInt("stagesUnlocked");
+            PlayerPrefs.SetInt("stagesUnlocked", stages+1);
+        }
+
+    } 
     
 
 }

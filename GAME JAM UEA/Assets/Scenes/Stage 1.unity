@@ -3436,13 +3436,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1458561827}
     - target: {fileID: 7300733472598673919, guid: b8e31a9fc1dd1664aabd57b8b254dd6c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Fade
-      objectReference: {fileID: 0}
-    - target: {fileID: 7300733472598673919, guid: b8e31a9fc1dd1664aabd57b8b254dd6c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Stage 2
-      objectReference: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2052498539}
     - target: {fileID: 7300733474280970276, guid: b8e31a9fc1dd1664aabd57b8b254dd6c, type: 3}
       propertyPath: m_Name
       value: PanelPopUpVictory
@@ -3535,9 +3531,5 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1458561827}
-    - target: {fileID: 8468556080941607342, guid: b8e31a9fc1dd1664aabd57b8b254dd6c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Fade
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8e31a9fc1dd1664aabd57b8b254dd6c, type: 3}
