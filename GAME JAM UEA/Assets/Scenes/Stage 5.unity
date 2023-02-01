@@ -822,6 +822,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3663418454501821304, guid: 03dfdd9a753314b49bce3ca3c56be6d6, type: 3}
+      propertyPath: m_Text
+      value: "Voc\xEA precisa pegar a chave e sobreviver a inunda\xE7\xE3o."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663418454501821311, guid: 03dfdd9a753314b49bce3ca3c56be6d6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 237.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663418454501821311, guid: 03dfdd9a753314b49bce3ca3c56be6d6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 25.23
+      objectReference: {fileID: 0}
     - target: {fileID: 3663418455601637609, guid: 03dfdd9a753314b49bce3ca3c56be6d6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1416,7 +1428,7 @@ GameObject:
   - component: {fileID: 1001969801}
   m_Layer: 0
   m_Name: CharFinal
-  m_TagString: Untagged
+  m_TagString: PlayerBody
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2744,7 +2756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1751529749175249702, guid: bd2e7f371b5e92d4daa9dd2748c445f8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1751529749175249702, guid: bd2e7f371b5e92d4daa9dd2748c445f8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2756,7 +2768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1751529749175249702, guid: bd2e7f371b5e92d4daa9dd2748c445f8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1751529749175249702, guid: bd2e7f371b5e92d4daa9dd2748c445f8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2768,7 +2780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1751529749175249702, guid: bd2e7f371b5e92d4daa9dd2748c445f8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 6000943176348746573, guid: bd2e7f371b5e92d4daa9dd2748c445f8, type: 3}
       propertyPath: m_Name
@@ -2776,6 +2788,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd2e7f371b5e92d4daa9dd2748c445f8, type: 3}
+--- !u!1 &1838086999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6000943176348746573, guid: bd2e7f371b5e92d4daa9dd2748c445f8, type: 3}
+  m_PrefabInstance: {fileID: 1770392355}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1869554513
 GameObject:
   m_ObjectHideFlags: 0
@@ -3188,15 +3205,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69af1352c744a3347aa02a718ef71460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 1001969798}
+  actualLevel: 5
+  keyObj: {fileID: 1838086999}
   spawnRate: 0.5
   waterLimit: -1.24
-  characters:
-  - {fileID: 21300000, guid: 69549f9c5219de34ca228c193078251d, type: 3}
-  - {fileID: 21300000, guid: 7ce4c4a4b301f4b4394482b131d9561a, type: 3}
-  - {fileID: 21300000, guid: cae3d1a23d71c6c4a8512c6a04bd27c3, type: 3}
-  - {fileID: 21300000, guid: 494819daae7e76f4d841ab159b07163a, type: 3}
-  - {fileID: 21300000, guid: 1d1160db08821d84b940a4fe8c478ac5, type: 3}
-  - {fileID: 21300000, guid: cdc64647e841c5c4e8a0ac3d371b5869, type: 3}
   blocks:
   - {fileID: 2297369881005840446, guid: 287e19aea5a00bc4681643d8b740d7a3, type: 3}
   - {fileID: 7439991179117727985, guid: a591dadecc3921d4bad923e2b10cf95f, type: 3}

@@ -2852,11 +2852,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69af1352c744a3347aa02a718ef71460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 1001969798}
+  actualLevel: 1
+  keyObj: {fileID: 0}
   spawnRate: 0.9
   waterLimit: -1.44
-  characters:
-  - {fileID: 21300000, guid: 6d5116847a5fa374ea41d20dc61176c5, type: 3}
-  - {fileID: 21300000, guid: 01ab477786d9c394d86496322cc8a5a2, type: 3}
   blocks:
   - {fileID: 7439991179117727985, guid: a591dadecc3921d4bad923e2b10cf95f, type: 3}
   - {fileID: 2297369881005840446, guid: 287e19aea5a00bc4681643d8b740d7a3, type: 3}

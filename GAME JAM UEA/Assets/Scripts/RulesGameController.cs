@@ -1,11 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class RulesGameController : MonoBehaviour
 {
+    public GameObject character;
+
+    public int actualLevel;
+    private bool needKey;
+    public static bool key;
+    public GameObject keyObj;
+    
     public float spawnRate = 0.5f;
     private float currentTime = 0f;
     private float startingTime = 10f;
@@ -16,7 +24,6 @@ public class RulesGameController : MonoBehaviour
     
     private bool canWin;
     
-    public Sprite[] characters;
     public GameObject[] blocks;
     public GameObject ocean;
     public GameObject winPanel;
@@ -36,13 +43,10 @@ public class RulesGameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        key = false;
         canWin = false;
         Debug.Log(PlayerPrefs.GetInt("stars"));
-        playerCloudSprite = playerCloud.GetComponent<SpriteRenderer>();
-        playerFallSprite = playerToFall.GetComponent<SpriteRenderer>();
-        
-        //SetCharacter();
-        
+       
         //waterLimit = Random.Range(-0.57f, 0.49f);
         waterVerify = false;
         m_NewForce = new Vector2(0, 4f);
@@ -55,6 +59,8 @@ public class RulesGameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        GetKeyToWin();
+        
         lineLimit.transform.position = new Vector3(0, waterLimit, 0);
         currentTime -= 1 * Time.deltaTime;
         countdownText.text = currentTime.ToString("0");
@@ -92,6 +98,14 @@ public class RulesGameController : MonoBehaviour
  
     }
 
+    void GetKeyToWin()
+    {
+        if (actualLevel == 3 || actualLevel == 4 || actualLevel == 5)
+        {
+            needKey = true;
+        }
+    }
+    
     void FallCharacter()
     {
         if (fallChar==true) // função que ativa o sprite do personagem caindo.
@@ -133,8 +147,24 @@ public class RulesGameController : MonoBehaviour
 
     IEnumerator TimerToVerify()
     {
-        yield return new WaitForSeconds(2);
-        canWin = true;
+        if (!needKey)
+        {
+            yield return new WaitForSeconds(2);
+            canWin = true;
+        }
+        if (needKey)
+        {
+            if (key)
+            {
+                yield return new WaitForSeconds(2);
+                canWin = true;
+            }
+            else
+            {
+                winCondition = -1;
+            }
+        }
+
     }
 
     public void GoToScene (string scene) //função que reinicia a cena.
@@ -152,26 +182,7 @@ public class RulesGameController : MonoBehaviour
         }
         SceneManager.LoadScene(scene);
     }
+    
 
-    /*void SetCharacter()
-    {
-        int charToSpawn = PlayerPrefs.GetInt("charToPlay");
-
-        if (charToSpawn == 1)
-        {
-            playerCloudSprite.sprite = characters[0];
-            playerFallSprite.sprite = characters[1];
-        }
-        if (charToSpawn == 2)
-        {
-            playerCloudSprite.sprite = characters[2];
-            playerFallSprite.sprite = characters[3];
-        }
-        if (charToSpawn == 3)
-        {
-            playerCloudSprite.sprite = characters[4];
-            playerFallSprite.sprite = characters[5];
-        }
-    }*/
 }
 
