@@ -640,6 +640,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1062087834}
     m_Modifications:
+    - target: {fileID: 2751657294241195878, guid: cb22723f54efe61418ab6584c86d9bfb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1791266765}
+    - target: {fileID: 2751657294241195878, guid: cb22723f54efe61418ab6584c86d9bfb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Fade
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751657294241195878, guid: cb22723f54efe61418ab6584c86d9bfb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: StageSelection
+      objectReference: {fileID: 0}
     - target: {fileID: 3311575078617933376, guid: cb22723f54efe61418ab6584c86d9bfb, type: 3}
       propertyPath: m_Name
       value: Pause_Btn
@@ -743,6 +755,10 @@ PrefabInstance:
     - target: {fileID: 8261024711247758501, guid: cb22723f54efe61418ab6584c86d9bfb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Fade
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261024711809634285, guid: cb22723f54efe61418ab6584c86d9bfb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb22723f54efe61418ab6584c86d9bfb, type: 3}
@@ -1167,6 +1183,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1902774857}
     m_Modifications:
+    - target: {fileID: 818261677793653110, guid: 03dfdd9a753314b49bce3ca3c56be6d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1791266765}
+    - target: {fileID: 818261677793653110, guid: 03dfdd9a753314b49bce3ca3c56be6d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Fade
+      objectReference: {fileID: 0}
+    - target: {fileID: 818261677793653110, guid: 03dfdd9a753314b49bce3ca3c56be6d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FadeCall, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 818261677793653110, guid: 03dfdd9a753314b49bce3ca3c56be6d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: StageSelection
+      objectReference: {fileID: 0}
     - target: {fileID: 2449996844668618936, guid: 03dfdd9a753314b49bce3ca3c56be6d6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1579,6 +1611,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 950182822}
     m_Modifications:
+    - target: {fileID: 6691633729963954272, guid: b8e31a9fc1dd1664aabd57b8b254dd6c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1791266765}
+    - target: {fileID: 6691633729963954272, guid: b8e31a9fc1dd1664aabd57b8b254dd6c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Fade
+      objectReference: {fileID: 0}
+    - target: {fileID: 6691633729963954272, guid: b8e31a9fc1dd1664aabd57b8b254dd6c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FadeCall, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6691633729963954272, guid: b8e31a9fc1dd1664aabd57b8b254dd6c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: StageSelection
+      objectReference: {fileID: 0}
     - target: {fileID: 7300733472598673919, guid: b8e31a9fc1dd1664aabd57b8b254dd6c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
