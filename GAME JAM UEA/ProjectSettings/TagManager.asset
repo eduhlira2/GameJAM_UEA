@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Key
   - PlayerBody
+  - Boss
+  - BossHand
+  - TNT
   layers:
   - Default
   - TransparentFX
@@ -42,4 +45,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Boss
+    uniqueID: 1589946331
+    locked: 0
+  - name: ui
+    uniqueID: 158284039
     locked: 0

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3703411036786797060}
   - component: {fileID: 2294195973157554997}
   - component: {fileID: 5553219664795224233}
+  - component: {fileID: 3330469407052793760}
   m_Layer: 0
   m_Name: Rocha Rosa
   m_TagString: Untagged
@@ -157,3 +158,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3330469407052793760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8253239673394516944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939f123948bb9654ab4a9a80c0b77c29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

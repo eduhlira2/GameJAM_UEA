@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7229117674227073195}
   - component: {fileID: -8990301235094743047}
   - component: {fileID: 4173855503711794745}
+  - component: {fileID: 4287476584375329335}
   m_Layer: 0
   m_Name: Rocha Amarela
   m_TagString: Untagged
@@ -169,3 +170,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4287476584375329335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7439991179117727985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939f123948bb9654ab4a9a80c0b77c29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2159753778856755429}
   - component: {fileID: -1792193412469397846}
   - component: {fileID: 5985950484886422694}
+  - component: {fileID: 4595020503666821838}
   m_Layer: 0
   m_Name: Rocha Salmon
   m_TagString: Untagged
@@ -144,3 +145,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4595020503666821838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7771829204749395357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939f123948bb9654ab4a9a80c0b77c29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
